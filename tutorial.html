@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <button onclick="showMenu()">X</button>
+        <img src="./assets/MenuLateral.JPG" alt="">
+    </div>
+    <header>
+        <a href="index.html"> <img src="./assets/Logo.png" alt=""></a>  
+        <button onclick="showMenu()">Get Started</button>
+        <a class="link" href="./index.html#tutorial"><h2 >Tutorial</h2></a>
+    </header>
+   <h1>Tutorial sobre referido assunto</h1>
+    <script>
+      
+      const sideMenu = document.querySelector(".menu")
+      
+
+        function showMenu(){
+            console.log("Deu certo")
+            sideMenu.classList.toggle('show-menu')
+        }
+        function showMenu(){
+            console.log("Deu certo")
+            sideMenu.classList.toggle('show-menu')
+        }
+    </script>
+</body>
+</html>
