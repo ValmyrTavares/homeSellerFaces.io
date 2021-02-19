@@ -7,23 +7,18 @@ export default class ScrollSuave{
         }
     }
 
-
-
-
     addEvent(){
       this.link.addEventListener('click',()=>{
               this.scrollToSection(event)
           })
     }
 
-   
     scrollToSection(event){
         event.preventDefault(event)
         const href = event.currentTarget.getAttribute("href")
         const sectionScroll = document.querySelector(href)
         sectionScroll.scrollIntoView(this.options)
       }
-
 
     init(){
         this.addEvent()
