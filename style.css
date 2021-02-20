@@ -58,3 +58,34 @@ grid-template-columns: 1fr 1fr 1fr;
 .show-menu{
     left:0;   
 }
+.video{
+    max-width: 600px;
+    margin:10px auto;
+}
+.video img{
+    width: 100%;
+}
+.title-tutoriais{
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 50px;
+}
+.fale-conosco{
+    font-family: arial;
+    color: green;
+    position: absolute;
+    top: 309px;
+    left: 86%;
+    font-size: 11px;
+}
+.fale-conosco p{
+    font-size:16px;
+   opacity: 0;
+   transition: .5s
+
+}
+
+.fale-conosco:hover p{
+    opacity: 1;
+    cursor:pointer;
+}
